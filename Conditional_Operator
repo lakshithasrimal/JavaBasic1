@@ -8,5 +8,10 @@ public class Main {
         System.out.println(a);
         // after run this code we can get "wow, it's true"
         // true or false value are for integers. if we use something else we must denote the type.
+        
+        String a = "howdy";
+        double result = a.equals("howdy") ? 3.2 : 6.4;
+        System.out.println(result);
+        // after this run we can get 3.2. bacause, string a is equal to "howdy".
     }
 }
