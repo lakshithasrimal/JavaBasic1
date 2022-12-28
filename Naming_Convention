@@ -1,0 +1,29 @@
+import java.util.Scanner;
+//when packages are used, simple letters are used untill starting a class name.
+
+public class Main {
+    static final int MAX_AGE =100;
+    public static void main(String[] args) {
+        //there is a class name called "Main".
+        //class name always starts with capital letter. it's unique for class name.
+        //class name cannot be had a spaces. (eg: M ain   :this is wrong.)
+        //classname should be meaningful. if class name starts with number or special character.then it shows an error.
+        //main method always uses simple letters.
+
+        int ageOfStudent = 5;
+        //when using a variable name , camel case method is used  and first letter is denoted by a simple letter.
+
+        Scanner scan = new Scanner(System.in);
+        //'scanner' is a class. basically  'System' is a class. 'in' is a variable.
+
+        final int MAX_AGE = 100;
+        //'final' keyword is used to denote a constant value that we don't want change all over the method(/class).
+        //all letters are capital , when using a constant value.
+        //we can use constant value for all over the class. with 'static' keyword.
+
+    }
+    public static int addTwoNumbers(int a , int b){
+        return 0;
+        //also when denoting a method , camel case method is used  and first letter is denoted by a simple letter.
+    }
+}    
