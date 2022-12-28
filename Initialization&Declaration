@@ -1,0 +1,7 @@
+public class Main{
+    public static void main(String[] args) {
+        String Pizza1 = "Pinnapple" // intialization
+        String Pizza2; //declaration
+        Pizza2 = "BBQ" //ASSIGNMENT
+    }
+}
