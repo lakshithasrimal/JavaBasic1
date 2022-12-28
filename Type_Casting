@@ -1,0 +1,25 @@
+public class Main {
+    public static void main(String[] args) {
+        int i = (int) 0.5;
+        System.out.println(i);
+        // this will show the integer value that rounded to down integer.
+
+        byte a =2;      //  8bit
+        short b;        //  16bit
+        char c;         //  16bit
+        int d;          //  32bit
+        long e;         //  64bit
+        float f =3.3f;  //  32bit
+        double g;       //  64bit
+
+        //this order has been sorted to increase size.
+        //according to the size, we can put only small size type value into large size type value.
+        // eg:                                     int                        byte
+        int n = a;
+        double ex = f;
+
+        //if we want to reverse this concept, firstly , convert the value to type we want. after assign the value.
+        int m = (int) f;
+        System.out.println(m);
+    }
+}
