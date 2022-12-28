@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        int i = (false) ? 33 : 22;
+        System.out.println(i);
+        // after run this code we can get '22'. if this was true. then it shows as 33.
+
+        String a = (true) ? (String) "wow, it's true" : (String) "its a false";
+        System.out.println(a);
+        // after run this code we can get "wow, it's true"
+        // true or false value are for integers. if we use something else we must denote the type.
+    }
+}
