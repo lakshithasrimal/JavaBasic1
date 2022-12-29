@@ -1,0 +1,56 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+// (1)       
+       int x = 1;
+         do {
+            try {
+                Scanner scan = new Scanner(System.in);
+                System.out.println("Enter first number");
+                int num1 = scan.nextInt();
+                System.out.println("Enter second number");
+                int num2 = scan.nextInt();
+                int sum = num1 / num2;
+                System.out.println("Answer is " + sum);
+                x = 2;
+            } catch (Exception e) {
+                System.out.println("YOU CAN'T DO THIS");
+            }
+         } while(x==1);
+    }
+}
+
+// do while loop happening until (x != 1).
+// using the try catch method, the codes in the try catch method is tried after catched the exception if there a error.
+// after we can react to the error. (eg: catch(Exception e) {
+//                                          System.out.println("YOU CAN'T DO THIS");
+//                                       }  )
+// there are several exception types.
+
+// (2)
+    public class Main {
+        public static void main(String[] args) {
+           try{
+               int[] a = {4,5,1};
+               System.out.println(a[3]);
+           }catch(Exception e) {
+               System.out.println("there is a error :(");
+           }
+        }
+    }
+
+// (3)
+    public class Main {
+    public static void main(String[] args) {
+        try {
+            int[] a = {4};
+            System.out.println(a[1]);
+        } catch (NullPointerException e) {
+            System.out.println("Your array is null!");
+        } catch(ArrayIndexOutOfBoundsException e) {
+            System.out.println("Your index is out of bounds!");
+        } catch (Exception e) {
+            System.out.println("Something else went wrong!");
+        }
+    }
+}
