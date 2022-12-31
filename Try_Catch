@@ -54,3 +54,26 @@ public class Main {
         }
     }
 }
+
+
+/*// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        String word = "hello";
+        
+        String reverse = "";
+        try {
+            for (int i = word.length(); i >= 0; i-- ) {
+                reverse += word.charAt(i);
+            }
+            
+            System.out.print(reverse);
+        
+        } catch (Exception e) {
+            System.out.println("there is a excetion that is " + e);
+        }
+    }
+}*/
